@@ -12,9 +12,9 @@
 					   name="s"
 					   autocomplete="off"
 					   id="s"
-					   placeholder="<?php esc_attr_e( 'Buscar', 'entrenamiento' ); ?>"
+					   placeholder="<?php esc_attr_e( 'Search...', 'entrenamiento' ); ?>"
 				/>
-				<label for="s" class="search-label" ><?php _e( 'Introduce tu búsqueda', 'entrenamiento' ); ?></label>
+				<label for="s" class="search-label" ><?php _e( 'Find the post', 'entrenamiento' ); ?></label>
 			</form>
 		</div>
 	</div>
