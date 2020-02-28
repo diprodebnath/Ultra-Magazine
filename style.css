@@ -10,3 +10,158 @@ Tags: Magazine, Responsive, Genesis, one-column, two-columns, three-columns, lef
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
+
+
+
+span.screen-reader-text {
+    display: none;
+}
+
+.wp-custom-logo .title-area {
+    max-width: none;
+    margin-top: 0;
+}
+
+.wp-custom-logo .site-title {
+    text-indent: 0;
+}
+
+.wp-custom-logo .site-title > a {
+    min-height: 0;
+}
+
+.custom-logo-link {
+    display: block;
+}
+
+.custom-logo {
+    margin: -3px 0 0;
+}
+.footer-widgets {
+    background-color: #222;
+    /* max-width: 1120px; */
+    margin:auto;
+}
+.footer-widgets .wrap{
+    background-color: #222;
+    color: #999;
+    display: flex;
+    padding: 30px 2rem;
+    flex-wrap: wrap;
+    margin: 50px auto 0;
+    max-width: 1120px;
+    font-size: 0.8rem;
+}
+.widget-wrap ul{
+    padding: 0;
+}
+
+
+.footer-widgets-1,
+.footer-widgets-2,
+.footer-widgets-3{
+    padding: 0 1rem;
+    box-sizing: border-box;
+    flex-grow: 1;
+    width: 33.33%;
+}
+
+
+.footer-widgets  .widget-wrap .widget-title {
+    font-family: "League Spartan";
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+.footer-widgets a {
+
+    color: #fff;
+}
+
+.footer-widgets a:hover {
+    color: #ccc;
+}
+
+.footer-widgets .widget {
+    margin-bottom: 2.4rem;
+}
+
+.footer-widgets .widgettitle {
+    color: #fff;
+}
+
+.footer-widgets li {
+    list-style-type: none;
+    margin-bottom: 0.6rem;
+}
+
+footer.site-footer {
+    background-color: #2e2e2e;
+    font-size: 0.9rem;
+    color: #fff;
+    min-height: 50px;
+}
+
+.site-footer .wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0;
+    max-width: 1120px;
+    margin: auto;
+}
+
+ul.footer-menu {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ul.footer-menu li {
+    display: inline-block;
+    margin: 0 18px;
+}
+ul.footer-menu li a{
+    color: #fff;
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .site-footer .wrap  {
+        max-width: 720px;
+        margin: auto;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .footer-widgets-1,
+    .footer-widgets-2,
+    .footer-widgets-3{
+        flex-grow: 1;
+        margin: 20px;
+        width: 100%;
+    }
+    .site-footer .wrap p{
+        margin-top: 10px;
+    }
+    .site-footer .wrap {
+        display: block;
+        max-width: 460px;
+        margin: auto;
+        padding: 0 20px;
+    }
+    .footer-widgets .wrap{
+        flex-wrap: wrap;
+
+    }
+
+}
+.footer-credit-link{
+    color: #fff;
+}
